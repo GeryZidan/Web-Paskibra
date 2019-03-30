@@ -81,7 +81,7 @@
   <!--isi-->
   <div class="isi3">
       <center><div id="judul">TABEL INFORMASI</div><br><br>
-      <a href='input_anggota.php'><button type='submit' class='btn btn-danger'>TAMBAH INFORMASI</button></a><br><br>
+      <a href='input_informasi.php'><button type='submit' class='btn btn-danger'>TAMBAH INFORMASI</button></a><br><br>
       <?php 
       //koneksi
       include ('koneksi.php');
