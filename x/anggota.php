@@ -4,7 +4,9 @@
     header("location:login.php");
   }
 
-  if ($_SESSION['u_level'] == 'admin' && 'user') {
+  if ($_SESSION['u_level'] == 'tamu') {
+    header("location:index.php");
+    }else{
 ?>
 
 <!doctype html>
@@ -184,7 +186,5 @@
 </html>
 
 <?php
-}else{
-  header("location:index.php");
 } 
 ?>
