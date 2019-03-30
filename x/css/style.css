@@ -1,0 +1,354 @@
+body{
+  font-family: arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background: white !important;
+}
+
+/* Navbar */
+.bg-nav{
+  background: rgba(30,30,30,0.5);
+}
+
+.bg-nav2{
+  background: rgba(30,30,30);
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: #ea2738 !important;
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+}
+
+.fa.fa-navicon {
+  color:white;
+}
+
+.dropdown .dropdown-menu{
+  background-color: rgba(30,30,30,0.9);
+}
+
+
+/* Carousel */
+.carousel{
+  padding-top: -80px !important;
+  position: absolute;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 900px !important;
+}
+
+.mytext
+{
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    width: 96.66666666666666%;
+    color: white;
+}
+
+.blur{
+  filter: blur(3px);
+}
+
+
+/* Isi */
+.isi{
+  font-family: 'roboto', sans-serif;
+  background: white;
+  width: 100%;
+  margin: 0px ;
+  padding: 100px;
+}
+
+.isi2{
+  font-family: 'roboto', sans-serif;
+  background: white;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.isi3{
+  font-family: 'roboto', sans-serif;
+  background: white;
+  margin-top: 100px;
+  padding: 10px 0px 30px 0px;
+}
+
+.left{
+  padding: 50px 15px 15px 15px ;
+}
+
+.right{
+  padding: 50px 15px 15px 15px ;
+  background-color: rgb(30,30,30);
+}
+
+#img_div{
+  width: 550px;
+  height: 300px;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+#img_div:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#img_div2{
+  width: 600px;
+  height: 350px;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+#img_div2:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#img_div3{
+  width: 290px;
+  height: 150px;
+  padding: 0px;
+
+}
+
+#img_div3:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#informasi{
+  width: 90%;
+  margin: 9px auto;
+}
+
+#judul2{
+  color: #ea2738;
+  margin-left: 20px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#judul{
+  color: rgb(30,30,30);
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#judul:hover{
+  color: #ea2738;
+}
+
+#waktu2{
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight:bold;
+  color: rgb(100,100,100);
+}
+
+#postingan-limiter{
+  font-weight: ;
+  margin: 0px;
+  font-size: 15px;
+  color: rgb(90,90,90);
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 5em;
+  line-height: 1.8em;
+}
+
+#postingan{
+  font-weight: ;
+  font-size: 20px;
+  color: rgb(90,90,90);
+}
+
+.materi{
+  margin: 20px;
+  text-align: left;
+  background-color: rgb(30,30,30);
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.form-informasi{
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 17px;
+  width: 1000px;
+  background: #ea2738;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-informasi-bg {
+  /* The image used */
+  background-image: url("img/pusdik.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgcontainer {
+  width: 290px;
+  height: 160px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 15px; 
+  text-shadow:
+    -0.8px -0.8px 0 #000,
+    0.8px -0.8px 0 #000,
+    -0.8px 0.8px 0 #000,
+    0.8px 0.8px 0 #000; 
+}
+
+#imgbg{
+  background: url("img/prapus.jpg") ;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+}
+
+#table-field{
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  background-color: #ea2738 ;
+  color: white;
+
+}
+
+#table-record{
+  font-size: 13px;
+  text-align: center;
+  background-color: white ;
+  color: rgb(30,30,30);
+
+}
+
+#table-record td a{
+  padding: 3px;
+  background-color: rgb(30,30,30);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#table-record td a:hover{
+  background-color: #ea2738 ;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Footer */
+.myfoot{
+  color: white;
+  background: rgb(30,30,30);
+}
+
+.myfoot2{
+  color: white;
+  background: rgb(20,20,20);
+}
+
+.tag{
+  position: absolute;
+  height: 25px;
+  width: 5px;
+  background-color: #ea2738;
+}
+
+.tag2{
+  position: absolute;
+  height: 60px;
+  width: 10px;
+  background-color: rgb(50,50,50);
+}
+
+.merah{
+  text-decoration: none;
+  color:gray;
+}
+
+.merah:hover{
+  text-decoration: none;
+  color:#ea2738;
+}
+
+.merah2{
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+  font-weight: medium;
+  text-decoration: none;
+  color:white;
+}
+
+.merah2:hover{
+  text-decoration: none;
+  color:#ea2738;
+}
+
+.merah3{
+  text-decoration: none;
+  color:white;
+}
+
+
+.merah3:hover{
+  text-decoration: none;
+  color:#ea2738;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+width: 5px;
+height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #ea2738;  
+border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #3498db;  
+}
