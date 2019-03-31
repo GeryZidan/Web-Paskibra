@@ -86,13 +86,13 @@
 	<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active" data-interval="5000">
-	      <img src="img/pusdik.jpg" class="d-block w-100 blur" alt="img/pusdik.jpg">
+	      <img src="img/p2.jpg" class="d-block w-100 blur" alt="img/p2.jpg">
 	    </div>
 	    <div class="carousel-item" data-interval="5000">
-	      <img src="img/pusdik.jpg" class="d-block w-100 blur" alt="img/pusdik.jpg">
+	      <img src="img/p1.jpg" class="d-block w-100 blur" alt="img/p1.jpg">
 	    </div>
 	    <div class="carousel-item" data-interval="5000">
-	      <img src="img/pusdik.jpg" class="d-block w-100 blur" alt="img/pusdik.jpg">
+	      <img src="img/p3.jpg" class="d-block w-100 blur" alt="img/p3.jpg">
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
